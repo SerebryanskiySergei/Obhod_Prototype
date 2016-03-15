@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/pathLinLay"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pathTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:layout_weight="5"
+            android:text="Path title"/>
+
+        <ToggleButton
+            android:id="@+id/togglePathInfoBtn"
+            android:textOn="Hide"
+            android:textOff="Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LLToInsertDetailsInfo"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pathDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/pathSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/path_select_btn"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
